@@ -3,10 +3,10 @@ package test
 import (
 	"time"
 
-	"github.com/masaushi/accessory/cmd/testdata/import_packages/sub1"
-	sub "github.com/masaushi/accessory/cmd/testdata/import_packages/sub2"
-	. "github.com/masaushi/accessory/cmd/testdata/import_packages/sub3"
-	_ "github.com/masaushi/accessory/cmd/testdata/import_packages/sub4"
+	"github.com/fenril22/accessory/cmd/testdata/import_packages/sub1"
+	sub "github.com/fenril22/accessory/cmd/testdata/import_packages/sub2"
+	. "github.com/fenril22/accessory/cmd/testdata/import_packages/sub3"
+	_ "github.com/fenril22/accessory/cmd/testdata/import_packages/sub4"
 )
 
 type Tester struct {

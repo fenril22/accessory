@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/masaushi/accessory/cmd"
+	"github.com/fenril22/accessory/cmd"
 )
 
 func main() {

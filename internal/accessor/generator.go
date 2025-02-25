@@ -10,7 +10,7 @@ import (
 	"strings"
 	"text/template"
 
-	templates "github.com/masaushi/accessory/internal/accessor/gotemplates"
+	templates "github.com/fenril22/accessory/internal/accessor/gotemplates"
 	"github.com/spf13/afero"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"

@@ -1,7 +1,7 @@
 package templates
 
 var Setter = `
-func ({{.Receiver}} *{{.Struct}}) {{.SetterMethod}}(val {{.Type}}) {
+func ({{.Receiver}} {{.Struct}}) {{.SetterMethod}}(val {{.Type}}) {
   if {{.Receiver}} == nil {
     return
   }

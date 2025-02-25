@@ -1,7 +1,7 @@
 package templates
 
 var Getter = `
-func ({{.Receiver}} *{{.Struct}}) {{.GetterMethod}}() {{.Type}} {
+func ({{.Receiver}} {{.Struct}}) {{.GetterMethod}}() {{.Type}} {
   if {{.Receiver}} == nil {
     return {{.ZeroValue}}
   }

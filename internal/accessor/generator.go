@@ -226,7 +226,7 @@ func (g *generator) methodNames(field *Field) (getter, setter string) {
 	} else {
 		// If no getter name is specified in the tag,
 		// use the field name capitalized as the getter name.
-		getter = cases.Title(language.Und, cases.NoLower).String(field.Name)
+		getter = "Get" + cases.Title(language.Und, cases.NoLower).String(field.Name)
 	}
 
 	if setterName := field.Tag.Setter; setterName != nil && *setterName != "" {
